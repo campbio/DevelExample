@@ -1,0 +1,42 @@
+---
+title: "R Development Example"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{R Development Example}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is a simple vignette to demonstrate the functions that are available in the DevelExample package. The purpose of this package is to demonstrate the process of adding code to an R function. The full tutorial "Adding code to an R package" can be found at the [Campbell lab website](camplab.net) under the "Articles" tab.
+
+Let's first load the library:
+
+```{r setup}
+library(DevelExample)
+```
+
+Next we can run our function with default parameters:
+
+```{r hello}
+hello()
+```
+
+We can also run the same function but without all of the exclamation marks:
+
+```{r hello2}
+hello(withExcitement = FALSE)
+```
+
+It is usually a good idea to show the session information to help with reproducibility:
+
+```{r session}
+sessionInfo()
+```
+
