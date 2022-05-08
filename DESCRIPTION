@@ -1,0 +1,17 @@
+Package: DevelExample
+Title: A Basic R Package to Demonstrate a Cycle of Code Development
+Version: 0.0.1
+Authors@R: 
+    person(given = "Joshua",
+           family = "Campbell",
+           role = c("aut", "cre"),
+           email = "camp@bu.edu")
+Description: Contains a simple function, documentation, and unit test.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
