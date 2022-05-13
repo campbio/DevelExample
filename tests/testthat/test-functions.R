@@ -11,4 +11,3 @@ test_that("hello world message", {
 test_that("hello world text with !", {
   expect_true(grepl("!", hello(withExcitement = TRUE)))
 })
-
