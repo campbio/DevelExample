@@ -6,9 +6,13 @@ Authors@R:
            family = "Campbell",
            role = c("aut", "cre"),
            email = "camp@bu.edu")
-Description: Contains a simple function, documentation, and unit test.
+Description: This package is used to demonstrate the process of adding code
+    to an R package. It contains a few simple functions, documentation 
+    examples, and unit tests. The corresponding tutorial can be found at
+    camplab.net/articles.
 License: MIT + file LICENSE
 Encoding: UTF-8
+biocViews: Clustering
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
