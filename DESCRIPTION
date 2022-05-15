@@ -13,7 +13,7 @@ Description: This package is used to demonstrate the process of adding code
 License: MIT + file LICENSE
 Encoding: UTF-8
 biocViews: Clustering
-LazyData: true
+LazyData: false
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 
