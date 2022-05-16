@@ -7,7 +7,8 @@
 #' @param verbose Boolean. If \code{TRUE}, a message will be printed. Default \code{TRUE}.
 #' @return A numeric value of a distance
 #' @examples
-#' euclideanDist(c(1, 2), c(2, 3), verbose = FALSE)
+#' data(example_data)
+#' euclideanDist(example_data[,1], example_data[,2], verbose = FALSE)
 #' @export
 euclideanDist <- function(a, b, verbose = FALSE) {
   if (isTRUE(verbose)) {

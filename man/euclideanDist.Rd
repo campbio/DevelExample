@@ -21,5 +21,6 @@ Calculates Euclidean distance between two vectors. An error will be
 given if NAs are present in either vector.
 }
 \examples{
-euclideanDist(c(1, 2), c(2, 3), verbose = FALSE)
+data(example_data)
+euclideanDist(example_data[,1], example_data[,2], verbose = FALSE)
 }
