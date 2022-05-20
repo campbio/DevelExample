@@ -5,7 +5,7 @@ test_that("multiplication works", {
 })
 
 test_that("hello world message", {
-  expect_message(message(hello()), regexp = "Hello world.")
+  expect_message(message(hello()), regexp = "Hello world")
 })
 
 test_that("hello world text with !", {

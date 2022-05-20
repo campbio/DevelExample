@@ -1,6 +1,6 @@
 Package: DevelExample
 Title: A Basic R Package to Demonstrate a Cycle of Code Development
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: 
     person(given = "Joshua",
            family = "Campbell",
@@ -22,3 +22,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
