@@ -1,3 +1,6 @@
+# Changes in Version 0.1.0 (2022-05-20)
+* Added function to calculate euclidean distance
+
 # Changes in Version 0.0.1 (2022-05-08)
 * Created package
 * Added Hello World function
