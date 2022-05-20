@@ -11,14 +11,15 @@ euclideanDist(a, b, verbose = FALSE)
 
 \item{b}{The second vector to use in the distance calculation.}
 
-\item{verbose}{Boolean. If \code{TRUE}, a message will be printed. Default \code{TRUE}.}
+\item{verbose}{Boolean. If \code{TRUE}, a message will be printed.
+Default \code{TRUE}.}
 }
 \value{
 A numeric value of a distance
 }
 \description{
-Calculates Euclidean distance between two vectors. An error will be
-given if NAs are present in either vector.
+Calculates Euclidean distance between two vectors. An error
+will be given if NAs are present in either vector.
 }
 \examples{
 data(example_data)
