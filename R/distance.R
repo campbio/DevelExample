@@ -24,7 +24,9 @@ euclideanDist <- function(a, b, verbose = FALSE) {
   return(res)
 }
 
-#' @description Check for NAs
+#' Validity check
+#' 
+#' This functions checks for NAs in a vector
 #'
 #' @param input A numeric vector
 #' @return Nothing returned
