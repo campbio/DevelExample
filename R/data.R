@@ -5,7 +5,7 @@
 #'
 #' @format A matrix with 100 rows and 2 columns
 #' @keywords datasets
-#' @usage data("example_data")
+#' @usage data("exampleData")
 #' @examples
-#' data("example_data")
-"example_data"
+#' data("exampleData")
+"exampleData"
