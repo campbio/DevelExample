@@ -11,7 +11,8 @@ euclideanDist(a, b, verbose = FALSE)
 
 \item{b}{The second vector to use in the distance calculation.}
 
-\item{verbose}{Boolean. If \code{TRUE}, a message will be printed. Default \code{TRUE}.}
+\item{verbose}{Boolean. If \code{TRUE}, a message will be printed.
+Default \code{TRUE}.}
 }
 \value{
 A numeric value of a distance
