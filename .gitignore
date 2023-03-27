@@ -2,6 +2,10 @@
 .Rhistory
 .Rapp.history
 
+# R things
+.Rprofile
+renv/
+
 # Session Data files
 .RData
 
