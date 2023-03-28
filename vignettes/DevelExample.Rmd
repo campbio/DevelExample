@@ -40,3 +40,15 @@ It is usually a good idea to show the session information to help with reproduci
 sessionInfo()
 ```
 
+
+To calculate the euclidean distance between two vectors, we can use the `euclideanDist` function. In this example we will generate two random vectors from normal distributions with two different means and calculate the distance between them:
+
+```{r dist}
+set.seed(12345)
+v1 <- rnorm(10000, mean = 1)
+v2 <- rnorm(10000, mean = 2)
+res <- euclideanDist(v1, v2, verbose = FALSE)
+res
+```
+
+The `set.seed` function is used for the random number generator and ensures the same vectors will be produced each time for reproducibility.

@@ -1,6 +1,6 @@
 Package: DevelExample
 Title: A Basic R Package to Demonstrate a Cycle of Code Development
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: 
     person(given = "Joshua",
            family = "Campbell",
@@ -15,10 +15,12 @@ Encoding: UTF-8
 biocViews: Clustering
 LazyData: false
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 Suggests: 
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
