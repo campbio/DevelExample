@@ -1,6 +1,6 @@
 Package: DevelExample
 Title: A Basic R Package to Demonstrate a Cycle of Code Development
-Version: 0.0.1
+Version: 0.1.1
 Authors@R: 
     person(given = "Joshua",
            family = "Campbell",

@@ -1,3 +1,4 @@
+
 #' @title Hello world
 #' @description A simple function to print Hello world
 #'
@@ -14,4 +15,4 @@ hello <- function(withExcitement = TRUE) {
     str <- "Hello world."
   }
   return(str)
-}
+  }

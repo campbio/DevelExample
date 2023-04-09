@@ -1,7 +1,6 @@
 #' @title Euclidean distance
 #' @description Calculates Euclidean distance between two vectors. An error will be 
 #' given if NAs are present in either vector.
-#'
 #' @param a The first vector to use in the distance calculation.
 #' @param b The second vector to use in the distance calculation.
 #' @param verbose Boolean. If \code{TRUE}, a message will be printed. Default \code{TRUE}.
