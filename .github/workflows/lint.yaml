@@ -1,4 +1,4 @@
-# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Workflow derived from https://github.com/r-lib/actions/tree/master/examples
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
@@ -25,8 +25,6 @@ jobs:
           extra-packages: lintr
 
       - name: Lint
-        run: lintr::lint_package(linters = 
-        lintr::linters_with_defaults(object_name_linter = 
-        lintr::object_name_linter("camelCase")))
+        run: lintr::lint_package(linters = lintr::linters_with_defaults(object_name_linter = lintr::object_name_linter("camelCase")))
         shell: Rscript {0}
 
