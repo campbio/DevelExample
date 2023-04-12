@@ -54,10 +54,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: rcmdcheck
-      
-      - name: Install knitr
-        run: Rscript -e 'install.packages("knitr")'
+          extra-packages: rcmdcheck, knitr
 
       - uses: r-lib/actions/check-r-package@v2
 
